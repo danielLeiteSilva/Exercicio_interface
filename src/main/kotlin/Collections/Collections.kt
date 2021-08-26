@@ -1,6 +1,7 @@
 
 fun main(){
 
+    //Exercicio 1
     val mapa = mapOf(
         0 to "Ovo",
         1 to "Agua",
@@ -17,7 +18,7 @@ fun main(){
 
     listPrint(mapa)
 
-
+    //Exercicio 2
     val apelidos = mapOf(
         "Joao" to listOf("Juan", "El Divo", "Maromba", "Zé Bonitinho"),
         "Miguel" to listOf("Dark Knight", "Bruce", "Batfleck", "Gengiva"),
@@ -38,6 +39,8 @@ fun main(){
 
     listaApelidos(apelidos)
 
+
+    //Exercicio 3
     val list = mutableListOf<Int>()
 
     list.add(1)
